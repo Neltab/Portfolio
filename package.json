@@ -1,0 +1,15 @@
+{
+  "version": "1.0.4",
+  "name": "website",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "dependencies": {
+    "hono": "^2.0.0",
+    "three": "^0.143.0"
+  },
+  "scripts": {
+    "start": "bun run src/server.tsx"
+  },
+  "module": "src/index.js"
+}
