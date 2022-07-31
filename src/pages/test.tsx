@@ -1,1 +1,1 @@
-export default (<h1>Hello Hono!</h1>)
+export default (<h1>%%test.h1%%</h1>)
