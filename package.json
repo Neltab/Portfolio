@@ -6,10 +6,11 @@
   },
   "dependencies": {
     "hono": "^2.0.0",
+    "tailwindcss": "^3.1.7",
     "three": "^0.143.0"
   },
   "scripts": {
-    "start": "bun run src/server.tsx"
+    "start": "npx tailwindcss -i ./src/app.css -o ./public/style/tailwind.css & bun run src/server.tsx"
   },
   "module": "src/index.js"
 }

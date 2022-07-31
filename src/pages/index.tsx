@@ -1,6 +1,9 @@
 const Layout = (props) => {
     return (
     <html>
+        <head>
+          <link href="/style/tailwind.css" rel="stylesheet" />
+        </head>
         <body>{props.children}</body>
     </html>
     )
@@ -9,7 +12,7 @@ const Layout = (props) => {
   const Top = (props) => {
     return (
     <Layout>
-        <h1>Hello Hono!</h1>
+        <h1 class="text-red-500">Hello Hono!</h1>
         <ul>
         {props.messages.map((message) => {
             return <li>{message}!!</li>
