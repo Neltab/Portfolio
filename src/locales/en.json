@@ -1,5 +1,110 @@
 {
-    "test": {
-        "h1": "Hello world"
+    "home": {
+        "title": "Welcome to my wesbite",
+        "resume":{
+            "link": "./en/interactive-resume",
+            "card": "/img/Card1.png",
+            "h1": "Discover my resume",
+            "h2": "Through a short interactive story",
+            "p": "Hop on board of a small vessel, and embark for a journey to learn more about me. You can control the ship by pressing the down arrow key or by scrolling down the page."
+        },
+        "project":{
+            "card": "/img/Card3.png",
+            "h1": "My current project",
+            "h2": "Update my interactive resume",
+            "p": "This part of my website is getting old. I've learned a lot of new ways to improve my code and I would like to spend time to dig deeper in the mathematical aspect of creating the animation."
+        },
+        "PTrans":{
+            "card": "/img/Card4.png",
+            "h1": "Polytech's project",
+            "h2": "Sart-up like mobile app",
+            "p": "Refactoring the previous mobile application for a student club. The app offers, to the club's clients, to buy fruits and vegetables from producers nearby. The club also need to contact producers in an easier way than sending messages with a mobile."
+        },
+        "other": [
+            {
+                "link": "./hyblab",
+                "title": "Hyblab 2022",
+                "description": "Participation in Ouest Medialab's Hackaton. Follow Charlie on her journey in Bordeaux to discover more about abstention.",
+                "image": "/img/hyblab.png",
+                "language": "/img/js.png"
+            },
+            {
+                "link": "https://gitlab.univ-nantes.fr/E20A976P/projet-java-s7",
+                "title": "Galactic Inazuma Football Game",
+                "description": "Trading Card Game centered around football. Collaboration with Anthime Huchet.",
+                "image": "/img/GitLab.png",
+                "language": "/img/java.png"
+            },
+            {
+                "link": "https://gitlab.univ-nantes.fr/E188424J/projet-cpp",
+                "title": "Strategy game AI",
+                "description": "Artificial intelligence made to play the online game KDice, a Risk-like game.",
+                "image": "/img/GitHub.png",
+                "language": "/img/c++.png"
+            },
+            {
+                "link": "https://github.com/Neltab/PolyHash",
+                "title": "PolyHash",
+                "description": "Remake of Google Hash Code. Optimization of a smartphone factory's production chain.",
+                "image": "/img/polytech.png",
+                "language": "/img/python.png"
+            },
+            {
+                "link": "https://kyysel.itch.io/speed",
+                "title": "S.P.E.E.D.",
+                "description": "Submission to the third Blackthornprod Game Jam. Also made in collaboration with Anthime Huchet in a limited time.",
+                "image": "/img/BTBLogo.png",
+                "language": "/img/csharp.png"
+            },
+            {
+                "link": "https://ldjam.com/events/ludum-dare/47/dodobius",
+                "title": "Dodobius",
+                "description": "First submission to Ludum Dare's Game Jam. We had 72 hours to create a whole video game as a team of 6.",
+                "image": "/img/LudumDare.png",
+                "language": "/img/python.png"
+            }
+        ],
+        "contact": [
+            {
+                "link": "https://batlen.itch.io/",
+                "image": "/img/itch.png"
+            },
+            {
+                "link": "https://github.com/Neltab",
+                "image": "/img/GitHub.png"
+            },
+            {
+                "link": "https://gitlab.univ-nantes.fr/E188424J",
+                "image": "/img/GitLab.png"
+            },
+            {
+                "link": "https://www.linkedin.com/in/aur%C3%A9lien-boissiere-899b2a12b/",
+                "image": "/img/linkedin.png"
+            }
+        ]
+    },
+    "interactiveResume": {
+        "about": {
+            "title": "About",
+            "points": [
+                "🎓 Studying for a master's degree in Computer Science",
+                "🔍 Looking for a 2 months internship",
+                "🌌 Astronomy enthusiast",
+                "🏆 Current goal: develop cool apps for my RaspberryPi",
+                "✈ Dream : travel to Canada or Finland"
+            ]
+        },
+        "languages": {
+            "title": "My languages"
+        },
+        "tools": {
+            "title": "My tools"
+        },
+        "softskills": [
+            "📚 Organized",
+            "⚙ Fast learner",
+            "🤝 Teamworker",
+            "🙌 Empathetic"
+        ]
     }
 }

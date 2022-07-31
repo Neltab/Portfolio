@@ -19,7 +19,7 @@ export default function translate(locales: string[] = ['en', 'fr'], directory: s
     let localesFiles = {}
     locales.forEach((lang: string) => localesFiles[lang] = require(join(directory, `${lang}.json`)));
     // let regex = /(?={{)[a-zA-Z0-9\s\S]+(?=}})/g;
-    let regex = /%%[a-zA-Z0-9\S]+%%/gm;
+    let regex = /\[\[[a-zA-Z0-9\S]+\]\]/gm;
 
     return async function (c: Context, next: Next) {
         let lang = c.req.header("accept-language");
