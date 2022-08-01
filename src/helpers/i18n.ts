@@ -22,7 +22,10 @@ export default function translate(locales: string[] = ['en', 'fr'], directory: s
     let regex = /\[\[[a-zA-Z0-9\S]+\]\]/gm;
 
     return async function (c: Context, next: Next) {
-        let lang = c.req.header("accept-language");
+        let lang = defaultLocale;
+        if (c.req.headers.has("accept-language")) {
+            lang = c.req.header("accept-language");
+        }
 
         // Format string to only get the language not the region
         lang = lang.split('-')[0].toLowerCase();
