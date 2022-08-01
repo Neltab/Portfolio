@@ -15,6 +15,8 @@ const indexStringLength = "index".length;
 const extStringLength = ".ts".length;
 const APIsFiles = await readdirRecursive(APIDir)
 
+console.log(APIsFiles)
+
 const APIsObject : APIRoute[] = APIsFiles.map( function (file: string) : APIRoute {
     let url = file.slice(APIDirStringLength, -extStringLength)
     if (url.endsWith("index")) {
