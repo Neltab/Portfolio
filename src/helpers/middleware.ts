@@ -1,12 +1,14 @@
 import readdirRecursive from "./folderReader";
 import { join } from "path";
 import { Hono } from "hono";
+import fs from 'fs';
 
 export default async function createMiddleware(
     directory: string, 
     fileExtension: string, 
-    action: (middleware: Hono,fileExport: any, url: string) => any,
-    hasIndex: boolean = true
+    action: (middleware: Hono,fileExport: any, url: string) => Promise<any>,
+    hasIndex: boolean = true,
+    isJSONLike: boolean = true,
 ){
     const middleware = new Hono();
 
@@ -21,14 +23,23 @@ export default async function createMiddleware(
         if (hasIndex && url.endsWith("index")) {
             url = url.slice(0, -indexStringLength);
         }
+
+        let defaultExport : string | object;
+        if (isJSONLike) {
+            defaultExport = require(file).default
+        }
+        else {
+            defaultExport = fs.readFileSync(file, 'utf8');
+        } 
+
         return {
-            defaultExport: require(file).default,
+            defaultExport,
             url
         };
     });
 
-    middlewareMapped.forEach(({defaultExport, url}) => {
-        action(middleware, defaultExport, url)
+    middlewareMapped.forEach(async ({defaultExport, url}) => {
+        await action(middleware, defaultExport, url)
     });
 
     return middleware;
