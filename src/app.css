@@ -1,19 +1,40 @@
 @tailwind base;
 @layer base {
     h1 {
-        @apply text-6xl;
+        @apply text-6xl mt-6;
     }
     h2 {
-        @apply text-3xl;
+        @apply text-3xl mt-3;
     }
     h3 {
-        @apply text-2xl;
+        @apply text-2xl mt-2;
+    }
+    h4 {
+        @apply text-xl mt-1;
+    }
+    h5 {
+        @apply text-lg mt-0.5;
     }
     a {
-        @apply text-blue-600;
+        @apply text-blue-400;
+    }
+    ul{
+        @apply list-disc ml-8;
+    }
+    ol {
+        @apply list-decimal pl-8;
+    }    
+    code {
+        @apply bg-slate-200 px-1 py-0.5 rounded;
     }
     blockquote {
-        @apply bg-slate-200 py-2 pl-2 rounded;
+        @apply border-l-4 border-slate-300 pl-4;
+    }
+    hr {
+        @apply my-4 border-t-2;
+    }
+    table {
+        @apply table-auto mr-0 w-full;
     }
 }
 @tailwind components;
