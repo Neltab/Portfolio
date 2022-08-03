@@ -1,0 +1,10 @@
+# TITLE
+## A bit of background
+Since the beginning of my studies, I've always wanted to have my personnal website where I could showcases my projects, both personnal and school related. Since I was a complete beginner, I made a small website. That was not great to be honest. But month after month of learning, I managed to improve it quite a bit. It was mostly a portfolio but you could launch a small webapp where you control a spaceship going from planets to planets hovered by pieces of my resume. You can find a link to this old version [here]().
+
+## A new beginning
+In the end, I still wasn't satisfied with what I created. I started to lack the motivation to modify it to add new pages or functionnalities. During this time, a new JavaScript runtime was create. It has a lot of cool features like bundle, transpile, install and run JavaScript, TypeScript and JSX natively. It also supports npm modules so we still have access to every project built by the community. It also claim to be way faster than node or deno, that's always a plus. So I decided that it was the time for a true change.
+
+## Ah yes... A new JavaScript framework !
+If you are a front end developper or if you've worked with JS long enough, you know that there is a lot, like really A LOT, of JS framework on the internet. The last thing we want is to find out that a new one was released. But if everybody is building is own, why not me. So that's what I did. Nothing fancy of course, we are not talking production ready, fully tested used by Google kind of framework. I just thought it would be a great experience to build my own and I would be sure it had the functionnalities I wanted. I could also be sure it didn't have the functionnalities I didn't want. We want the stay lightweight.
+So with the help of bun, I [started coding](/posts/bun-dynamic-url)
