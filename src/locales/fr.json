@@ -1,69 +1,71 @@
 {
-    "home": {
+    "legacy": {
         "title": "Bienvenue sur mon site",
-        "resume":{
-            "link": "./fr/interactive-resume",
-            "card": "/img/Card1.png",
-            "h1": "Découvrez mon CV",
-            "h2": "Via une histoire intéractive",
-            "p": "Prenez place à bord d'un vaisseau et embarquez dans un court voyage pour en apprendre plus sur moi. Vous pouvez controller le vaisseau grâce à la flèche du bas ou en faisant défiler la page."
+        "sections": {
+            "resume":{
+                "link": "./fr/interactive-resume",
+                "card": "/img/Card1.png",
+                "title": "Découvrez mon CV",
+                "subTitle": "Via une histoire intéractive",
+                "description": "Prenez place à bord d'un vaisseau et embarquez dans un court voyage pour en apprendre plus sur moi. Vous pouvez controller le vaisseau grâce à la flèche du bas ou en faisant défiler la page."
+            },
+            "project":{
+                "card": "/img/Card3.png",
+                "title": "Mon projet actuel",
+                "subTitle": "Amélioration du CV intéractif",
+                "description": "J'ai réalisé cette partie du site il y a deux ans déjà et le code se fait vieux. J'ai acquis de nouvelles compétences que je veux mettre à profit pour améliorer mes anciens projets. Je voudrais également me pencher plus en détail sur l'aspect mathématique du calcul de l'animation."
+            },
+            "PTrans":{
+                "card": "/img/Card4.png",
+                "title": "Projet Polytech",
+                "subTitle": "Application mobile startup",
+                "description": "Ce projet fait suite à un problème rencontré par une association étudiante: le Bureau du Developpement Durable. Cette dernière propose des légumes à la vente aux étudiants, qui peuvent commander via une application. Le procédé n'est pas encore très optimisé et nous souhaiterions intégrer la possibilité d'intéragir avec les producteurs directement via l'application."
+            }
         },
-        "project":{
-            "card": "/img/Card3.png",
-            "h1": "Mon projet actuel",
-            "h2": "Amélioration du CV intéractif",
-            "p": "J'ai réalisé cette partie du site il y a deux ans déjà et le code se fait vieux. J'ai acquis de nouvelles compétences que je veux mettre à profit pour améliorer mes anciens projets. Je voudrais également me pencher plus en détail sur l'aspect mathématique du calcul de l'animation."
-        },
-        "PTrans":{
-            "card": "/img/Card4.png",
-            "h1": "Projet Polytech",
-            "h2": "Application mobile startup",
-            "p": "Ce projet fait suite à un problème rencontré par une association étudiante: le Bureau du Developpement Durable. Cette dernière propose des légumes à la vente aux étudiants, qui peuvent commander via une application. Le procédé n'est pas encore très optimisé et nous souhaiterions intégrer la possibilité d'intéragir avec les producteurs directement via l'application."
-        },
-        "other": [
-            {
+        "projects": {
+            "hyblab": {
                 "link": "./hyblab",
                 "title": "Hyblab 2022",
                 "description": "Hackaton organisé par Ouest Medialab. Retrouvez Charlie dans sa balade à Bordeaux pour en apprendre plus sur l'abstention.",
                 "image": "/img/hyblab.png",
                 "language": "/img/js.png"
             },
-            {
+            "GIFG":{
                 "link": "https://gitlab.univ-nantes.fr/E20A976P/projet-java-s7",
                 "title": "Galactic Inazuma Football Game",
                 "description": "Jeu de cartes à collectionner autours du football. Réalisé en équipe avec Anthime Huchet.",
                 "image": "/img/GitLab.png",
                 "language": "/img/java.png"
             },
-            {
+            "KDice":{
                 "link": "https://gitlab.univ-nantes.fr/E188424J/projet-cpp",
                 "title": "IA jeu de stratégie",
                 "description": "Intelligence artificielle pour le jeu de stratégie KDice, un jeu très proche de Risk.",
                 "image": "/img/GitHub.png",
                 "language": "/img/c++.png"
             },
-            {
+            "PolyHash":{
                 "link": "https://github.com/Neltab/PolyHash",
                 "title": "PolyHash",
                 "description": "Reprise du Google Hash Code de 2020. Optimisation d'une chaine de production de smartphone.",
                 "image": "/img/polytech.png",
                 "language": "/img/python.png"
             },
-            {
+            "SPEED":{
                 "link": "https://kyysel.itch.io/speed",
                 "title": "S.P.E.E.D.",
                 "description": "Projet soumis à la Blackthornprod Game Jam #3\nProjet sur une semaine où j'ai conçu un jeu en duo avec Anthime Huchet.",
                 "image": "/img/BTBLogo.png",
                 "language": "/img/csharp.png"
             },
-            {
+            "dodobius":{
                 "link": "https://ldjam.com/events/ludum-dare/47/dodobius",
                 "title": "Dodobius",
                 "description": "Première participation à la Ludum Dare. Création d’un jeu vidéo en 72h sur un thème choisi par la communauté.",
                 "image": "/img/LudumDare.png",
                 "language": "/img/python.png"
             }
-        ],
+        },
         "contact": [
             {
                 "link": "https://batlen.itch.io/",
