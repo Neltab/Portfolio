@@ -22,6 +22,11 @@ export default function translate(locales: string[] = ['en', 'fr'], directory: s
     let regex = /\[\[[a-zA-Z0-9.]+\]\]/gm;
 
     return async function (c: Context, next: Next) {
+        if (c.req.url.includes("/public/")){
+            await next();
+            return;
+        }
+
         let lang = defaultLocale;
         if (c.req.headers.has("accept-language")) {
             lang = c.req.header("accept-language");

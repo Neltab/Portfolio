@@ -4,19 +4,19 @@
         "sections":{
             "resume":{
                 "link": "./en/interactive-resume",
-                "card": "/img/Card1.png",
+                "card": "/public/img/Card1.png",
                 "title": "Discover my resume",
                 "subTitle": "Through a short interactive story",
                 "description": "Hop on board of a small vessel, and embark for a journey to learn more about me. You can control the ship by pressing the down arrow key or by scrolling down the page."
             },
             "project":{
-                "card": "/img/Card3.png",
+                "card": "/public/img/Card3.png",
                 "title": "My current project",
                 "subTitle": "Update my interactive resume",
                 "description": "This part of my website is getting old. I've learned a lot of new ways to improve my code and I would like to spend time to dig deeper in the mathematical aspect of creating the animation."
             },
             "PTrans":{
-                "card": "/img/Card4.png",
+                "card": "/public/img/Card4.png",
                 "title": "Polytech's project",
                 "subTitle": "Sart-up like mobile app",
                 "description": "Refactoring the previous mobile application for a student club. The app offers, to the club's clients, to buy fruits and vegetables from producers nearby. The club also need to contact producers in an easier way than sending messages with a mobile."
@@ -27,61 +27,61 @@
                 "link": "./hyblab",
                 "title": "Hyblab 2022",
                 "description": "Participation in Ouest Medialab's Hackaton. Follow Charlie on her journey in Bordeaux to discover more about abstention.",
-                "image": "/img/hyblab.png",
-                "language": "/img/js.png"
+                "image": "/public/img/hyblab.png",
+                "language": "/public/img/js.png"
             },
             "GIFG":{
                 "link": "https://gitlab.univ-nantes.fr/E20A976P/projet-java-s7",
                 "title": "Galactic Inazuma Football Game",
                 "description": "Trading Card Game centered around football. Collaboration with Anthime Huchet.",
-                "image": "/img/GitLab.png",
-                "language": "/img/java.png"
+                "image": "/public/img/GitLab.png",
+                "language": "/public/img/java.png"
             },
             "KDice":{
                 "link": "https://gitlab.univ-nantes.fr/E188424J/projet-cpp",
                 "title": "Strategy game AI",
                 "description": "Artificial intelligence made to play the online game KDice, a Risk-like game.",
-                "image": "/img/GitHub.png",
-                "language": "/img/c++.png"
+                "image": "/public/img/GitHub.png",
+                "language": "/public/img/c++.png"
             },
             "PolyHash":{
                 "link": "https://github.com/Neltab/PolyHash",
                 "title": "PolyHash",
                 "description": "Remake of Google Hash Code. Optimization of a smartphone factory's production chain.",
-                "image": "/img/polytech.png",
-                "language": "/img/python.png"
+                "image": "/public/img/polytech.png",
+                "language": "/public/img/python.png"
             },
             "SPEED":{
                 "link": "https://kyysel.itch.io/speed",
                 "title": "S.P.E.E.D.",
                 "description": "Submission to the third Blackthornprod Game Jam. Also made in collaboration with Anthime Huchet in a limited time.",
-                "image": "/img/BTBLogo.png",
-                "language": "/img/csharp.png"
+                "image": "/public/img/BTBLogo.png",
+                "language": "/public/img/csharp.png"
             },
             "dodobius":{
                 "link": "https://ldjam.com/events/ludum-dare/47/dodobius",
                 "title": "Dodobius",
                 "description": "First submission to Ludum Dare's Game Jam. We had 72 hours to create a whole video game as a team of 6.",
-                "image": "/img/LudumDare.png",
-                "language": "/img/python.png"
+                "image": "/public/img/LudumDare.png",
+                "language": "/public/img/python.png"
             }
         },
         "contact": [
             {
                 "link": "https://batlen.itch.io/",
-                "image": "/img/itch.png"
+                "image": "/public/img/itch.png"
             },
             {
                 "link": "https://github.com/Neltab",
-                "image": "/img/GitHub.png"
+                "image": "/public/img/GitHub.png"
             },
             {
                 "link": "https://gitlab.univ-nantes.fr/E188424J",
-                "image": "/img/GitLab.png"
+                "image": "/public/img/GitLab.png"
             },
             {
                 "link": "https://www.linkedin.com/in/aur%C3%A9lien-boissiere-899b2a12b/",
-                "image": "/img/linkedin.png"
+                "image": "/public/img/linkedin.png"
             }
         ]
     },

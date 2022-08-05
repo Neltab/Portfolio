@@ -38,7 +38,7 @@ const posts = await createMiddleware(
         middleware.get(url, (c) => c.html(
             `<html>
                 <head>
-                <link href="/style/tailwind.css" rel="stylesheet" />
+                <link href="/public/style/tailwind.css" rel="stylesheet" />
                 </head>
                 <body>
                     <article class='container mx-auto px-[12.5vw] pt-32'>

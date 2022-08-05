@@ -19,7 +19,7 @@ app.use('*', translate())
 app.route("/", pages);
 app.route("/api/", API);
 app.route("/posts/", posts);
-app.use('*', serveStatic({ root: './public' }))
+app.use('/public/*', serveStatic({ root: './' }))
 
 console.log(`Running at http://localhost:${port}`);
 
