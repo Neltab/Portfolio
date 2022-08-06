@@ -5,20 +5,16 @@ const ProjectCard = (props: {
     description: string,
     language: string
 }) => (
-    <div class="">
-        <a href={props.url}>
-            <div class="">
-                <img class="" src={props.image} />
-                <h3>
-                    {props.title}
-                </h3>
-                <p class="">
-                    {props.description}
-                </p>
-                <img class="" src={props.language}/>
-            </div>
-        </a>
-    </div>
+    <a href={props.url} class="drop-shadow inline flex flex-col justify-items-center items-center max-w-xs">
+        <img class="w-16" src={props.image} />
+        <h3>
+            {props.title}
+        </h3>
+        <p class="">
+            {props.description}
+        </p>
+        <img class="w-8" src={props.language}/>
+    </a>
 )
 
 export default ProjectCard;

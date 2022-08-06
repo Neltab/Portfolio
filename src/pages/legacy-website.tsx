@@ -8,6 +8,7 @@ type LegacyWebsiteProps = {
 
 const sections = ["resume", "project", "PTrans"];
 const projects = ["hyblab", "GIFG", "KDice", "PolyHash", "SPEED", "dodobius"];
+const sectionClasses = "flex justify-evenly items-center place-items-center my-[15vh]"
 
 const LegacyWebsite = (props: LegacyWebsiteProps) => (
     <Page
@@ -17,7 +18,7 @@ const LegacyWebsite = (props: LegacyWebsiteProps) => (
         {sections.map((section: string, index: number) => {
             if (index % 2 === 0) {
                 return (
-                    <section>
+                    <section class={sectionClasses}>
                         <DisplayCard 
                             image = {`[[legacy.sections.${section}.card]]`}
                             url =   {`[[legacy.sections.${section}.link]]`}
@@ -32,7 +33,7 @@ const LegacyWebsite = (props: LegacyWebsiteProps) => (
             }
 
             return (
-                <section>
+                <section class={sectionClasses}>
                     <DisplayArticle 
                         title =         {`[[legacy.sections.${section}.title]]`}
                         subTitle =      {`[[legacy.sections.${section}.subTitle]]`}
@@ -47,7 +48,7 @@ const LegacyWebsite = (props: LegacyWebsiteProps) => (
             )
         })}   
 
-        <section>
+        <section class="container flex-wrap flex justify-evenly gap-16 items-center place-items-center px-16">
             {projects.map((project: string) => {
                 return <ProjectCard 
                     url =           {`[[legacy.projects.${project}.link]]`}
