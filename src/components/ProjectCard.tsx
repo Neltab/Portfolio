@@ -5,9 +5,9 @@ const ProjectCard = (props: {
     description: string,
     language: string
 }) => (
-    <a href={props.url} class="drop-shadow inline flex flex-col justify-items-center items-center max-w-xs">
+    <a href={props.url} class="shadow-lg text-black px-8 rounded-3xl inline flex h-96 flex-col justify-around items-center max-w-xs text-center">
         <img class="w-16" src={props.image} />
-        <h3>
+        <h3 class="text-sky-500">
             {props.title}
         </h3>
         <p class="">
